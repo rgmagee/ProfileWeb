@@ -1,0 +1,47 @@
+.fullscreen { width: 100%;}
+.halfscreen {width: 50%;}
+.chihuahua {background-color: rgb(200,200,200);}
+.my-padding {
+	padding:(200,100,200,100);
+}
+body {
+	padding-top: 60px;
+}
+
+h3 {
+	font-size: 5em;
+	font-family: 'Asul', Georgia, sans-serif;
+	font-style: italic;
+
+
+}
+
+p {font-family: 'Asul', Georgia, sans-serif;
+	
+
+}
+h2 {
+
+	display: inline-block;
+	font-size: 5em;
+	font-family: 'Asul', Georgia, sans-serif;
+	font-weight: bold;
+	color: rgb(207,20,43);
+	border: 5px solid rgb(20,33,66);
+	padding: 20px 120px 20px 120px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+h1 {
+	font-family: 'Asul', Georgia, sans-serif;
+	color: rgb(20,33,66);
+}	
+}
+
+@media only screen and (max-width: 40em) { 
+	.panel {
+background-image: url(http://placekitten.com/g/200/300);
+height: 100%;
+background-size: cover;
+} }
